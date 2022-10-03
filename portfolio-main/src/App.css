@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    font-family: 'Mukta', 'helvetica';
+}
+
+#navbar{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.line{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profile{
+    display: grid;
+    grid-template-columns: 10;
+    gap: 5px;
+}
+
+.image-section{
+    grid-column: 1;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 40px;
+    background-color: rgb(19, 82, 47);
+    height: 100vh;
+    box-shadow: 2px 2px 2px 2px;
+    position:static;
+}
+
+.title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+ #last-name{
+    padding-bottom: 10px;
+    text-indent: 30px;
+ }
+
+.profile-img{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(18, 127, 32);
+}
+
+.contact-info{
+    font-size: 18px;
+    color:white;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.contact-info li{
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.profile-info{
+    display: grid;
+    grid-column: 4;
+}
+
