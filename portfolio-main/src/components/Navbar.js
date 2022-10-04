@@ -15,7 +15,7 @@ export default function Navbar() {
           <Nav.Link href='/about' className='text-success'>About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href='/other' className='text-success'>Other Stuff</Nav.Link>
+          <Nav.Link href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' className='text-success'>Other Stuff</Nav.Link>
         </Nav.Item>
       </Nav>
       <hr className='line'></hr>

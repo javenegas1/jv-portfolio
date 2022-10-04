@@ -27,7 +27,7 @@
 .image-section{
     grid-column: 1;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 22px;
     background-color: rgb(17, 55, 34);
     height: 92.5vh;
     box-shadow: 2px 2px 2px 2px;
@@ -47,8 +47,15 @@
     padding-top: 5vh;
 }
 
+.position{
+    padding-top: 15px;
+    color:white;
+    padding-left: 26vh;
+    margin-bottom: -20px;
+}
+
  #last-name{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-indent: 30px;
  }
 
@@ -193,4 +200,20 @@
 #project-card{
     height: 70vh;
     width:70%;
+}
+
+/* about page */
+.about-page{
+    /* background-color: rgb(101, 218, 154); */
+    background-color: rgb(17, 55, 34);
+    color: white;
+    height: 300vh;
+}
+
+.background{
+    height: 72vh;
+}
+
+.skills{
+    height: 92vh;
 }

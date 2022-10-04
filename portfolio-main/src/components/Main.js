@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 //bootstrap
-import { Linkedin, Github, Phone, Building, Mailbox } from 'react-bootstrap-icons';
+import { Linkedin, Github, Phone, Building, Mailbox, Briefcase } from 'react-bootstrap-icons';
 import Toast from 'react-bootstrap/Toast';
 import ToastContainer from 'react-bootstrap/ToastContainer';
 import Card from 'react-bootstrap/Card';
@@ -16,6 +16,7 @@ export default function Main() {
         <div className='image-section'>
             <h3 className='title'>Juan</h3>
             <h3 className='title' id='last-name'>Venegas</h3>
+            <p className='position'>&lt; Software Developer <Briefcase></Briefcase> &gt;</p>
 
             <img src='https://imgur.com/WDluuXn.jpg' className='profile-img'></img>
             <div>
