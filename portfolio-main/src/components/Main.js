@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-//icons
+//bootstrap
 import { Linkedin, Github, Phone, Building, Mailbox } from 'react-bootstrap-icons';
-
+import Toast from 'react-bootstrap/Toast';
+import ToastContainer from 'react-bootstrap/ToastContainer';
+import Card from 'react-bootstrap/Card';
 
 export default function Main() {
+
+  const [show, setShow] = useState(true);
+
   return (
     <div className='profile'>
 
@@ -27,15 +32,27 @@ export default function Main() {
 
         <div className='profile-info'>
             {/* have text transform hello welcome from 5 different languages */}
-            <h3>
-                Hello! Welcome! 
-            </h3>
-            <p>
-                <span>Thank you</span> for visiting my portfolio page!
-            </p>
+            <div className='intro'>
+            <h3>Hello! Welcome!</h3>
+            <Card  className='w-75' id='thank-you-card'>
+                <Card.Body><h4><span>Thank you</span> for visiting my portfolio page!</h4></Card.Body>
+            </Card>
             <p>
                 I definitely appreciate the time you've taken to get to know me. Feel free to use any of the links to continue investigating a little more!
             </p> 
+            </div>
+
+    <ToastContainer className="p-3" position='bottom-end'>
+    <Toast animation={true} onClose={() => setShow(false)} show={show} delay={7000} autohide bg='dark'>
+      <Toast.Header>
+        <img src="holder.js/20x20?text=%20" className="rounded me-2" alt="" />
+        <strong className="me-auto">From Juan Venegas</strong>
+        <small>Just now</small>
+      </Toast.Header>
+      <Toast.Body><p className='green'>Yes, I like the color <span>Green</span></p></Toast.Body>
+    </Toast>
+    </ToastContainer>
+
         </div>
 
     </div>

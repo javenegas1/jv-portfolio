@@ -9,6 +9,10 @@
     padding-top: 5px;
 }
 
+#link{
+    padding-right: 30px;
+}
+
 .line{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -17,16 +21,15 @@
 .profile{
     display: grid;
     grid-template-columns: 10;
-    gap: 5px;
+    gap: 1px;
 }
 
 .image-section{
     grid-column: 1;
     padding-left: 100px;
-    padding-right: 20px;
     padding-top: 40px;
-    background-color: rgb(19, 82, 47);
-    height: 100vh;
+    background-color: rgb(17, 55, 34);
+    height: 92.5vh;
     box-shadow: 2px 2px 2px 2px;
     position:static;
 }
@@ -36,6 +39,14 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+.titles{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5vh;
+}
+
  #last-name{
     padding-bottom: 10px;
     text-indent: 30px;
@@ -68,6 +79,118 @@
 
 .profile-info{
     display: grid;
-    grid-column: 4;
+    grid-column: 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)), url('https://imgur.com/ucPJpaG.jpg');
+    background-size: 150vh;
+    /* border: 5px solid black; */
+    background-repeat: no-repeat;
+    color: white;
+    content: "";
+    position: absolute;
+    height: 92.5vh;
+    top: 52px;
+    right: 0px;
+    bottom: 0px;
+    left: 461px;
+    background-color: rgba(30, 29, 29, 0.65);
 }
 
+.intro h3{
+    font-size: 70px;
+    padding-top: 50px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+#thank-you-card{
+    margin-top: 5vh;
+    margin-left: 50px;
+    margin-bottom: 7vh;
+    background-color: rgb(6, 36, 47, 0.80);
+    text-align: center;
+}
+
+.intro h4{
+    font-size: 35px;
+    color: rgb(182, 206, 231);
+}
+
+.intro h4 span{
+    color: goldenrod;
+    font-weight: bold;
+    font-style: italic;
+}
+.intro p{
+    font-size: 45px;
+    padding-left: 10vh;
+    color: white;
+}
+
+.green{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.green span{
+    color:green;
+}
+
+/* projects page */
+
+.projects-page{
+    background-color: rgb(17, 55, 34);
+    color: white;
+    height: 100vh;
+}
+
+#projects-carousel{
+    height:75vh;
+}
+
+#project-img{
+    width: 60%;
+    height: 60%;
+    opacity: 0.2;
+    border-radius: 15%;
+}
+#carousel-card{
+    padding-top: 7vh;
+}
+
+#carousel-words{
+    color: rgb(238, 229, 229);
+    text-align: left;
+    padding-bottom: 5vh;
+    padding-right: 40vh;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#carousel-words h2{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#carousel-words a{
+    text-decoration: none;
+    color: white;
+}
+
+#carousel-words a:hover{
+    text-decoration: none;
+    color: rgb(226, 61, 61);
+}
+
+#carousel-words ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#carousel-words li{
+    padding-left: 5vh;
+}
+
+#project-card{
+    height: 70vh;
+    width:70%;
+}
