@@ -1,9 +1,5 @@
 import React from 'react'
-
 import { motion } from "framer-motion"
-
-//bootstrap
-import ListGroup from 'react-bootstrap/ListGroup';
 
 export default function About() {
   return (
