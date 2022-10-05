@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 
+import { motion } from "framer-motion"
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
+
 //bootstrap
 import { Linkedin, Github, Phone, Building, Mailbox, Briefcase } from 'react-bootstrap-icons';
 import Toast from 'react-bootstrap/Toast';
@@ -10,13 +13,34 @@ export default function Main() {
 
   const [show, setShow] = useState(true);
 
+  const [text, count] = useTypewriter({
+    words:['Hello, Welcome', 'Hola, Bienvenidos', 'こんにちは ようこそ',  'Bonjour, Bienvenue', 'Hallo, Willkommen', 'Xin chào hoan nghênh', 'Ola, Bem-vindos', '你好 欢迎'],
+    loop:true,
+    delaySpeed: 4000,
+    deleteSpeed: 50
+  })
+
   return (
     <div className='profile'>
 
         <div className='image-section'>
             <h3 className='title'>Juan</h3>
             <h3 className='title' id='last-name'>Venegas</h3>
+
+            <motion.div
+                    initial={{
+                        x: -700,
+                        scale: 0.75
+                      }}
+                      animate={{
+                        x:0, 
+                        scale:1
+                      }}
+                      transition={{
+                        duration:1.25
+                      }}>
             <p className='position'>&lt; Software Developer <Briefcase></Briefcase> &gt;</p>
+            </motion.div>
 
             <img src='https://imgur.com/WDluuXn.jpg' className='profile-img'></img>
             <div>
@@ -34,7 +58,9 @@ export default function Main() {
         <div className='profile-info'>
             {/* have text transform hello welcome from 5 different languages */}
             <div className='intro'>
-            <h3>Hello! Welcome!</h3>
+            <h3>{text}
+            <Cursor cursorColor='#3ce69c' />!
+            </h3>
             <Card  className='w-75' id='thank-you-card'>
                 <Card.Body><h4><span>Thank you</span> for visiting my portfolio page!</h4></Card.Body>
             </Card>

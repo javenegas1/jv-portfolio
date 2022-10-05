@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { motion } from "framer-motion"
+
 //bootstrap
 import ListGroup from 'react-bootstrap/ListGroup';
 
@@ -23,6 +25,21 @@ export default function About() {
         <div className='skills'>
         <h2 className='titles'>Proficient With:</h2>
           
+        <motion.div
+        initial={{
+          x: -700,
+          opacity: 0,
+          scale: 0.5
+        }}
+        whileInView={{
+          x:0,
+          scale:1,
+          opacity:1
+        }}
+        viewport={{
+          once: true
+        }}
+        >
           <ul className='skills-list'>
             <li>Node</li>
             <li>Python3</li>
@@ -34,11 +51,25 @@ export default function About() {
             <li>Bootstrap</li>
             <li>Bulma</li>
           </ul>
-
+        </motion.div>
+      
         <h2 className='titles'>Education</h2>
-        <div className='education'>
+        <motion.div className='education'
+                initial={{
+                  x: +700,
+                  opacity: 0,
+                  scale: 0.5
+                }}
+                whileInView={{
+                  x:0,
+                  scale:1,
+                  opacity:1
+                }}
+                viewport={{
+                  once: true
+                }}>
           <div className='gsu'>
-          <img src='https://imgur.com/bqJ430y.jpg' className='gsu-image'/>
+            <img src='https://imgur.com/bqJ430y.jpg' className='gsu-image'/>
             <h3>Georgia State Univesity</h3>
             <ul>
               <li>B.S. Economics, Minor in Political Science</li>
@@ -58,8 +89,8 @@ export default function About() {
               <li>Primary focus on JS and Python frameworks</li>
             </ul>
           </div>
-        </div>
-        </div>
+        </motion.div>
+      </div>
     </div>
   )
 }

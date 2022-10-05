@@ -89,7 +89,6 @@
     grid-column: 2;
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)), url('https://imgur.com/ucPJpaG.jpg');
     background-size: 150vh;
-    /* border: 5px solid black; */
     background-repeat: no-repeat;
     color: white;
     content: "";
@@ -107,6 +106,7 @@
     padding-top: 50px;
     font-weight: 600;
     padding-left: 20px;
+    
 }
 
 #thank-you-card{
@@ -115,6 +115,7 @@
     margin-bottom: 7vh;
     background-color: rgb(6, 36, 47, 0.80);
     text-align: center;
+    border-radius: 5%;
 }
 
 .intro h4{
