@@ -209,12 +209,7 @@
     /* background-color: rgb(101, 218, 154); */
     background-color: rgb(17, 55, 34);
     color: white;
-    height: 220vh;
-}
-
-.background{
-    display: inline;
-    border: 1px solid green;
+    height: 190vh;
 }
 
 .collage-list{
@@ -260,11 +255,7 @@
 }
 
 .background{
-    height: 52vh;
-}
-
-.skills{
-    height: 92vh;
+    height: 75vh;
 }
 
 .skills-list{
