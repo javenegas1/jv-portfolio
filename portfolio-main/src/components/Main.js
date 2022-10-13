@@ -48,7 +48,7 @@ export default function Main() {
                     <li><Building></Building> Atlanta, GA</li>
                     <li><Phone></Phone> <a href='tel:404-824-9367'>(404) 824-9367</a></li>
                     <li><Mailbox></Mailbox> <a href='mailto:venegas.a.juan37@gmail.com'> venegas.a.juan37@gmail.com </a></li>
-                    <li> <Linkedin></Linkedin> <a href='https://www.linkedin.com/in/juan-venegas-600254163/'>LinkedIn</a></li>
+                    <li> <Linkedin></Linkedin> <a href='https://www.linkedin.com/in/juan-venegas-swe/'>LinkedIn</a></li>
                     <li> <Github></Github> <a href='https://github.com/javenegas1'>My Github</a></li>
 
                 </ul>
