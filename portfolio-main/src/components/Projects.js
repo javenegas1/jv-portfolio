@@ -1,7 +1,7 @@
 import React from 'react'
 
 //bootstrap
-import { CupFill, Controller, Globe } from 'react-bootstrap-icons';
+import { CupFill, Controller, Globe, EggFried } from 'react-bootstrap-icons';
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function Projects() {
@@ -11,6 +11,24 @@ export default function Projects() {
     <h2 className='titles'>My Projects</h2>
 
         <Carousel id='projects-carousel'>
+        <Carousel.Item id='carousel-card'>
+        <img
+          className="d-block mx-auto"
+          src="https://imgur.com/MKuWQMo.jpg"
+          alt="First slide"
+          id='project-img'
+        />
+        <Carousel.Caption id='carousel-words'>
+          <h2>HotPlate <EggFried></EggFried> </h2>
+          <p>This project was initiated with the goal of providing professionals in the food industry with a platform to showcase their talent and grow their client base. Using the power of Django to create a site where users can interact with each other and discover chefs they can submit work requests, I was able to set the foundation for a site that will hopefully help a great industry. Feel free to visit this <a href='https://hotplate-proj.herokuapp.com/'>website here</a> or its <a href='https://github.com/javenegas1/hotplate'>Github page here!</a></p>
+          <ul>
+            <li>Python3</li>
+            <li>Django</li>
+            <li>PostgresQL</li>
+            <li>Bulma</li>
+          </ul>
+        </Carousel.Caption>
+      </Carousel.Item>
       <Carousel.Item id='carousel-card'>
         <img
           className="d-block mx-auto"
