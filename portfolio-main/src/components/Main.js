@@ -27,7 +27,7 @@ export default function Main() {
             <h3 className='title'>Juan</h3>
             <h3 className='title' id='last-name'>Venegas</h3>
 
-            <motion.div
+            {/* <motion.div
                     initial={{
                         x: -700,
                         scale: 0.75
@@ -40,7 +40,7 @@ export default function Main() {
                         duration:1.25
                       }}>
             <p className='position'>&lt; Software Developer <Briefcase></Briefcase> &gt;</p>
-            </motion.div>
+            </motion.div> */}
 
             <img src='https://imgur.com/WDluuXn.jpg' className='profile-img'></img>
             <div>
@@ -63,7 +63,7 @@ export default function Main() {
                 <Card.Body><h4><span>Thank you</span> for visiting my portfolio page!</h4></Card.Body>
             </Card>
             <p>
-                I definitely appreciate the time you've taken to get to know me. Feel free to use any of the links to continue investigating a little more!
+                I'm Juan, and I am a Software Developer with experience using Python and Javascript based tools such as Django and React. Feel free to use my contact info to talk more about my credentials, soccer, or anything else you like!
             </p> 
             </div>
 
