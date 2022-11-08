@@ -63,7 +63,7 @@ export default function Main() {
                 <Card.Body><h4><span>Thank you</span> for visiting my portfolio page!</h4></Card.Body>
             </Card>
             <p>
-                I'm Juan, and I am a Software Developer with experience using Python and Javascript based tools such as Django and React. Feel free to use my contact info to talk more about my credentials, soccer, or anything else you like!
+                I'm Juan, and I am a <span className='highlights'>Software Developer</span> with experience using <span className='highlights2'>Python</span> and <span className='highlights2'>JavaScript</span> based tools such as <span className='highlights2'>Django</span> and <span className='highlights2'>React</span>. Feel free to use my contact info to talk more about my credentials, soccer, or anything else you'd like!
             </p> 
             </div>
 

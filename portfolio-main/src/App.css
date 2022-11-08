@@ -128,11 +128,19 @@
     font-style: italic;
 }
 .intro p{
-    font-size: 35px;
+    font-size: 37px;
     text-align: justify;
     padding-left: 10vh;
     padding-right: 50px;
     color: white;
+}
+
+.highlights{
+    color: rgb(208, 193, 60);
+}
+
+.highlights2{
+    color: rgb(39, 170, 166);
 }
 
 .green{
