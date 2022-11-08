@@ -48,15 +48,13 @@ export default function Main() {
                     <li><Building></Building> Atlanta, GA</li>
                     <li><Phone></Phone> <a href='tel:404-824-9367'>(404) 824-9367</a></li>
                     <li><Mailbox></Mailbox> <a href='mailto:venegas.a.juan37@gmail.com'> venegas.a.juan37@gmail.com </a></li>
-                    <li> <Linkedin></Linkedin> <a href='https://www.linkedin.com/in/juan-venegas-swe/'>LinkedIn</a></li>
-                    <li> <Github></Github> <a href='https://github.com/javenegas1'>My Github</a></li>
-
+                    <li> <Linkedin></Linkedin> <a href='https://www.linkedin.com/in/juan-venegas-swe/' target="_blank" rel="noopener noreferrer" >LinkedIn</a></li>
+                    <li> <Github></Github> <a href='https://github.com/javenegas1' target="_blank" rel="noopener noreferrer" >My Github</a></li>
                 </ul>
             </div>
         </div>
 
         <div className='profile-info'>
-            {/* have text transform hello welcome from 5 different languages */}
             <div className='intro'>
             <h3>{text}
             <Cursor cursorColor='#3ce69c' />!
