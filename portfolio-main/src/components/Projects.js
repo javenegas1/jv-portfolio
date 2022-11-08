@@ -2,7 +2,6 @@ import React from 'react'
 
 //bootstrap
 import { CupFill, Controller, Globe, EggFried } from 'react-bootstrap-icons';
-import { FaJsSquare } from 'react-icons/fa';
 import { DiJsBadge, DiCss3, DiBootstrap, DiMongodb, DiReact, DiPostgresql, DiDjango, DiPython } from 'react-icons/di';
 import Carousel from 'react-bootstrap/Carousel';
 
