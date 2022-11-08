@@ -281,13 +281,14 @@
 }
 
 .skills-list li{
-    border: 1px solid gold;
-    background-color: gold;
-    color: rgb(82, 80, 80);
+    border: 1px solid rgb(205, 176, 11);
+    background-color: rgb(187, 163, 32);
+    color: rgb(255, 255, 255);
     padding-top: 1vh;
     padding-bottom: 1vh;
     text-align: center;
     font-weight: 600;
+    font-size: 20px;
     width:15%;
     margin-left: 20px;
     margin-right: 20px;

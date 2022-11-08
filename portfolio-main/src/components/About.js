@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import { DiJsBadge, DiCss3, DiBootstrap, DiMongodb, DiReact, DiPostgresql, DiDjango, DiPython, DiAws } from 'react-icons/di';
 
 export default function About() {
   return (
@@ -37,15 +38,15 @@ export default function About() {
         }}
         >
           <ul className='skills-list'>
-            <li>Node</li>
-            <li>Python3</li>
-            <li>React</li>
-            <li>PostgresQL</li>
-            <li>Express.js</li>
-            <li>MongoDB/Mongoose</li>
-            <li>Django</li>
-            <li>Bootstrap</li>
-            <li>Bulma</li>
+            <li> <DiJsBadge/> JavaScript</li>
+            <li> <DiPython/> Python3</li>
+            <li> <DiReact/> React</li>
+            <li> <DiPostgresql/> PostgresQL</li>
+            <li> <DiAws/> AWS</li>
+            <li> <DiMongodb/> MongoDB</li>
+            <li> <DiDjango/> Django</li>
+            <li> <DiBootstrap/> Bootstrap</li>
+            <li> <DiCss3/> CSS3</li>
           </ul>
         </motion.div>
       
